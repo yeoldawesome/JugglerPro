@@ -3,6 +3,7 @@ PROMTS
 /create-agent I need to create a python program with machine vison that uses my webcam to track balls, it needs to do it really well and track it consitintly frame to frame, also sometimes the balls might disapear from view, use some math and physics to predeict where the ball is ant and where it will go so that the ball is hypotheticly constanty being followed. it needs to be really good and track the balls pretty percicly so it can be tracked while getting thrown around. 
 track up to 5 balls simultaneously, expecting round balls and a moslty uniform back ground, the balls will be about baseball size and come in a range of colors, the balls will be trown up and caught and i want a full runable python file 
 also i needs to track these balls at high speeds like throws and flip the view so its not mirrored also the tracker dances around the center of the ball like i want it fixed at the center and not buggin around
+lets optimize it for 3 balls and im going to try juggling, it needs to keep track of each ball and like not lose it, i want to like have it rate the passes and how acurate the throws are and wether they are going high enough and weather the arc is good or not 
 
 COmands 
 python ball_tracker.py --display
