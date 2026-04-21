@@ -3,7 +3,8 @@
 A starter Python project for analyzing juggling with webcam computer vision.
 
 ## What this does
-- Tracks colored balls in webcam video
+- Detects moving juggling balls without requiring a specific ball color
+- Draws boxes around balls and hands
 - Estimates throw height from ball trajectory
 - Computes collision risk between tracked balls
 - Detects wrist positions and gives a simple arm/hand pattern summary
@@ -11,7 +12,8 @@ A starter Python project for analyzing juggling with webcam computer vision.
 
 ## Requirements
 - Python 3.9+
-- Webcam attached
+- Webcam attached for live mode
+- Recorded video files can also be analyzed with the same script
 
 ## Setup
 1. Create and activate a virtual environment:
@@ -34,6 +36,14 @@ python juggle_analyzer.py
 ```
 
 Press `q` to quit.
+
+## Analyze a recorded juggling video
+
+```bash
+python juggle_analyzer.py --video path/to/video.mp4
+```
+
+Press `q` to quit while the video plays.
 
 ## Run the web demo
 

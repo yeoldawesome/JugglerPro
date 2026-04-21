@@ -1,1 +1,2 @@
 notes
+Please create me a program that anilizes my juggling, i want to use python machine vison to anylize my throw hight, colision chances, arm pattern and lots of other usefull stuff, it should also track the balls and stuff, have it use my webcam and stuff make it look good and work well please take all the time you need. it needs to have accurate ball tracking and hand tracking and ball and hand persistance so that if it looses sight of it it can find it again and recognize that its the same hand or ball, use like ball tragectory calculations n shit if you have to 
