@@ -1,7 +1,0 @@
-# Juggle Analyzer — Python requirements
-# Install with:  pip install -r juggling_requirements.txt
-
-opencv-python>=4.8.0
-mediapipe>=0.10.0
-numpy>=1.24.0
-scipy>=1.11.0

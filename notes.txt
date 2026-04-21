@@ -1,2 +1,8 @@
 notes
-Please create me a program that anilizes my juggling, i want to use python machine vison to anylize my throw hight, colision chances, arm pattern and lots of other usefull stuff, it should also track the balls and stuff, have it use my webcam and stuff make it look good and work well please take all the time you need. it needs to have accurate ball tracking and hand tracking and ball and hand persistance so that if it looses sight of it it can find it again and recognize that its the same hand or ball, use like ball tragectory calculations n shit if you have to 
+PROMTS 
+/create-agent I need to create a python program with machine vison that uses my webcam to track balls, it needs to do it really well and track it consitintly frame to frame, also sometimes the balls might disapear from view, use some math and physics to predeict where the ball is ant and where it will go so that the ball is hypotheticly constanty being followed. it needs to be really good and track the balls pretty percicly so it can be tracked while getting thrown around. 
+track up to 5 balls simultaneously, expecting round balls and a moslty uniform back ground, the balls will be about baseball size and come in a range of colors, the balls will be trown up and caught and i want a full runable python file 
+also i needs to track these balls at high speeds like throws and flip the view so its not mirrored also the tracker dances around the center of the ball like i want it fixed at the center and not buggin around
+
+COmands 
+python ball_tracker.py --display
